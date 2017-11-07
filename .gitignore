@@ -12,5 +12,5 @@ grader.xml
 
 ### package
 
-.jar
-.zip
+*.jar
+*.zip
