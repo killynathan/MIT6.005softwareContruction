@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="0" name="BigLibraryTest" package="library" skipped="0" tests="2" time="0.219" timestamp="2017-11-07T10:57:21">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.BigLibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.BigLibraryTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher3678585321043641585.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit192141345380236129.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.BigLibraryTest" name="testAssertionsEnabled" time="0.001" />
+
+      <testcase classname="library.BigLibraryTest" name="testExampleTest" time="0.09" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="1" name="BookCopyTest" package="library" skipped="0" tests="6" time="0.13" timestamp="2017-11-07T10:57:22">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.BookCopyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.BookCopyTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher4015894292543637572.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit1440078342981806583.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.BookCopyTest" name="testGetShortBook" time="0.005" />
+
+      <testcase classname="library.BookCopyTest" name="testGetConditionGood" time="0.0" />
+
+      <testcase classname="library.BookCopyTest" name="testGetLongBook" time="0.0" />
+
+      <testcase classname="library.BookCopyTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="library.BookCopyTest" name="testGetConditionDamaged" time="0.0" />
+
+      <testcase classname="library.BookCopyTest" name="testExampleTest" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="2" name="BookTest" package="library" skipped="0" tests="3" time="0.095" timestamp="2017-11-07T10:57:23">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.BookTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.BookTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher6996129256055883870.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit9201464276718623469.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.BookTest" name="testBookWithShortParams" time="0.002" />
+
+      <testcase classname="library.BookTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="library.BookTest" name="testBookWithLongParams" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="3" name="LibraryTest" package="library" skipped="0" tests="14" time="0.173" timestamp="2017-11-07T10:57:24">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.LibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.LibraryTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher7642276102095877671.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit1569640077853804394.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.LibraryTest" name="testFind[library.SmallLibrary]" time="0.06" />
+
+      <testcase classname="library.LibraryTest" name="testLose[library.SmallLibrary]" time="0.001" />
+
+      <testcase classname="library.LibraryTest" name="testgetCopies[library.SmallLibrary]" time="0.001" />
+
+      <testcase classname="library.LibraryTest" name="testCheckoutAndCheckinSingleCopy[library.SmallLibrary]" time="0.001" />
+
+      <testcase classname="library.LibraryTest" name="testAssertionsEnabled[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.LibraryTest" name="testCheckoutAndCheckinMultipleCopies[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.LibraryTest" name="testExampleTest[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.LibraryTest" name="testFind[library.BigLibrary]" time="0.001" />
+
+      <testcase classname="library.LibraryTest" name="testLose[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.LibraryTest" name="testgetCopies[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.LibraryTest" name="testCheckoutAndCheckinSingleCopy[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.LibraryTest" name="testAssertionsEnabled[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.LibraryTest" name="testCheckoutAndCheckinMultipleCopies[library.BigLibrary]" time="0.001" />
+
+      <testcase classname="library.LibraryTest" name="testExampleTest[library.BigLibrary]" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="4" name="BookCopyTest" package="library.beta" skipped="0" tests="4" time="0.092" timestamp="2017-11-07T10:57:24">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.beta.BookCopyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.beta.BookCopyTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher2778806608411899548.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit987365837860795051.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our beta tests against your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.beta.BookCopyTest" name="testEqualsHashcode" time="0.003" />
+
+      <testcase classname="library.beta.BookCopyTest" name="testGetBook" time="0.001" />
+
+      <testcase classname="library.beta.BookCopyTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="library.beta.BookCopyTest" name="testCondition" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="5" name="BookTest" package="library.beta" skipped="0" tests="4" time="0.101" timestamp="2017-11-07T10:57:25">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.beta.BookTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.beta.BookTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher2814511111682123104.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit2824331064559416963.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our beta tests against your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.beta.BookTest" name="testNormalBook" time="0.002" />
+
+      <testcase classname="library.beta.BookTest" name="testEqualsHashCode" time="0.0" />
+
+      <testcase classname="library.beta.BookTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="library.beta.BookTest" name="testMinimalBook" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="6" name="LibraryTest" package="library.beta" skipped="0" tests="16" time="0.22" timestamp="2017-11-07T10:57:26">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.beta.LibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.beta.LibraryTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher4512537368729279472.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit420264870505490709.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our beta tests against your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.beta.LibraryTest" name="testBuy[library.SmallLibrary]" time="0.005" />
+
+      <testcase classname="library.beta.LibraryTest" name="testFind[library.SmallLibrary]" time="0.094" />
+
+      <testcase classname="library.beta.LibraryTest" name="testLose[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testAllCopiesAvailableCopies[library.SmallLibrary]" time="0.001" />
+
+      <testcase classname="library.beta.LibraryTest" name="testEqualsHashcode[library.SmallLibrary]" time="0.001" />
+
+      <testcase classname="library.beta.LibraryTest" name="testAssertionsEnabled[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testIsAvailable[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testCheckinCheckout[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testBuy[library.BigLibrary]" time="0.001" />
+
+      <testcase classname="library.beta.LibraryTest" name="testFind[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testLose[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testAllCopiesAvailableCopies[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testEqualsHashcode[library.BigLibrary]" time="0.001" />
+
+      <testcase classname="library.beta.LibraryTest" name="testAssertionsEnabled[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testIsAvailable[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testCheckinCheckout[library.BigLibrary]" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="7" name="BookTest" package="library.staff" skipped="0" tests="2" time="0.083" timestamp="2017-11-07T10:57:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.staff.BookTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.staff.BookTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher6990675351492182378.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit5988020650926260945.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-tests-final;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our tests against your implementation" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.staff.BookTest" name="testRepExposureInGetAuthors" time="0.002" />
+
+      <testcase classname="library.staff.BookTest" name="testRepExposureInConstructor" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="8" name="LibraryTest" package="library.staff" skipped="0" tests="12" time="0.184" timestamp="2017-11-07T10:57:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.staff.LibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.staff.LibraryTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher2649153088125797874.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit8499131680313286391.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-tests-final;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our tests against your implementation" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.staff.LibraryTest" name="testDifferentObjectsRepresentingSameBook[library.SmallLibrary]" time="0.005" />
+
+      <testcase classname="library.staff.LibraryTest" name="testFindAfterLosingLastCopy[library.SmallLibrary]" time="0.059" />
+
+      <testcase classname="library.staff.LibraryTest" name="testFindAfterLosingAndRebuyingBook[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.staff.LibraryTest" name="testRepExposureInAllCopies[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.staff.LibraryTest" name="testRepExposureInAvailableCopies[library.SmallLibrary]" time="0.001" />
+
+      <testcase classname="library.staff.LibraryTest" name="testRepExposureInFind[library.SmallLibrary]" time="0.001" />
+
+      <testcase classname="library.staff.LibraryTest" name="testDifferentObjectsRepresentingSameBook[library.BigLibrary]" time="0.002" />
+
+      <testcase classname="library.staff.LibraryTest" name="testFindAfterLosingLastCopy[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.staff.LibraryTest" name="testFindAfterLosingAndRebuyingBook[library.BigLibrary]" time="0.001" />
+
+      <testcase classname="library.staff.LibraryTest" name="testRepExposureInAllCopies[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.staff.LibraryTest" name="testRepExposureInAvailableCopies[library.BigLibrary]" time="0.0" />
+
+      <testcase classname="library.staff.LibraryTest" name="testRepExposureInFind[library.BigLibrary]" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-IQDO3RG" id="9" name="SmallLibraryTest" package="library.staff" skipped="0" tests="1" time="0.083" timestamp="2017-11-07T10:57:28">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="user.name" value="Nathan" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps3-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Nathan" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nathan\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Nathan\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\cygwin64\bin;C:\Users\Nathan\AppData\Local\atom\bin;C:\Windows\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.staff.SmallLibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\TEST-library.staff.SmallLibraryTest.xml crashfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junitvmwatcher4880582993419703891.properties propsfile=C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\junit5192956709358975613.properties" />
+
+          <property name="java.class.path" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\junit-4.12.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\lib\hamcrest-core-1.3.jar;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-tests-final;C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library\.grader\bin-student;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="project.name" value="ps3-library" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our tests against your implementation" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nathan\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps3" />
+
+          <property name="basedir" value="C:\Users\Nathan\Documents\cs\SoftwareConstruction\ps3-library" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Nathan\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="library.staff.SmallLibraryTest" name="testUsesTheGivenRep" time="0.002" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
