@@ -3,7 +3,12 @@
  */
 package expressivo;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import org.junit.Test;
 
@@ -39,6 +44,13 @@ public class ExpressionTest {
      *      different groupings
      *      different decimal accuracy (1 vs 1.00)
      *      different variable name casings
+     *   differentiate():
+     *      values = scalars, variables, all
+     *      operations = sum, product, all
+     *   simplify():
+     *      values = scalars, variables, all
+     *      operations = sum, product, all
+     *      # of variables filled = none, some, all
      */
     
     @Test(expected=AssertionError.class)
@@ -76,17 +88,17 @@ public class ExpressionTest {
     }
     
     @Test 
-    void testParseIncompleteAddition() {
+    public void testParseIncompleteAddition() {
         testCatchException("1 +");
     }
     
     @Test
-    void testParseIncompleteMultiplication() {
+   public  void testParseIncompleteMultiplication() {
         testCatchException(" * bar");
     }
     
     @Test
-    void testParseNoOperator() {
+    public void testParseNoOperator() {
         testCatchException("4 Foo");
     }
     
@@ -96,37 +108,27 @@ public class ExpressionTest {
     
     @Test
     public void testToStringAndParseDifferentSpacings() {
-        testToStringAndParseHelper("1   +1", "(1 + 1)");
+        testToStringAndParseHelper("1   +1", "(1.0 + 1.0)");
     }
     
     @Test
     public void testToStringAndParseManyParenthesis() {
-        
+        testToStringAndParseHelper("(((1+1)))", "(1.0 + 1.0)");
     }
     
     @Test
-    public void testToStringAndParseAddingScalars() {
-        testToStringAndParseHelper("1 + 3 + 4", "((1 + 3) + 4)");
+    public void testToStringAndParseAddition() {
+        testToStringAndParseHelper("x + foo + 1 + 5", "(((x + foo) + 1.0) + 5.0)");
     }
     
     @Test
-    public void testToStringAndParseAddingScalarsAndVariables() {
-        testToStringAndParseHelper("x + foo + 1 + 5");
-    }
-    
-    @Test
-    public void testToStringAndParseMultiplyingScalars() {
-        testToStringAndParseHelper("5 * 7 * 2");
-    }
-    
-    @Test
-    public void testToStringAndParseMultiplyingScalarsAndVariables() {
-        testToStringAndParseHelper("foo * 5 * y * 1");
+    public void testToStringAndParseMultiplication() {
+        testToStringAndParseHelper("foo * 5 * y * 1", "foo * 5.0 * y * 1.0");
     }
     
     @Test
     public void testToStringAndParseAll() {
-        testToStringAndParseHelper("foo + 6 * bar" + 4);
+        testToStringAndParseHelper("foo + 6 * bar + 4", "((foo + 6.0 * bar) + 4.0)");
     }
     
     /*
@@ -142,7 +144,7 @@ public class ExpressionTest {
         }
         else {
             assertFalse(expr1.equals(expr2));
-            assertNotEquals(expr1.hashCode(), expr2.hashCode());
+            //assertNotEquals(expr1.hashCode(), expr2.hashCode()); //hashcodes are allowd to be the same
         }
     }
     
@@ -164,7 +166,7 @@ public class ExpressionTest {
     
     @Test
     public void testEqualityDifferentOrdering() {
-        testEqualityHelper("1 + Foo + 7", "Foo + 1 + 7", true);
+        testEqualityHelper("1 + Foo + 7", "Foo + 1 + 7", false);
     }
     
     @Test
@@ -179,11 +181,73 @@ public class ExpressionTest {
     
     @Test
     public void testEqualityDifferentDecimalAccuracy() {
-        testEqualityHelper("1.0 + Foo", "1 + Foo", true);
+        testEqualityHelper("1.0 * Foo", "1 * Foo", true);
     }
     
     @Test
     public void testEqualityDifferentCasings() {
-        testEqualityHelper("1 + Foo", "1 + foo", false);
+        testEqualityHelper("1 * Foo", "1 * foo", false);
+    }
+    
+    /**
+     * differentiate()
+     */
+    
+    private void testDifferentiateHelper(String var, String input, String correctOutput) {
+        Expression input_expr = Expression.parse(input);
+        Expression derivative = input_expr.differentiate(var);
+        Expression correct_expr = Expression.parse(correctOutput);
+        assertEquals(derivative, correct_expr);
+    }
+    
+    @Test
+    public void testDifferentiateSum() {
+        testDifferentiateHelper("x", "1 + x + x + Foo", "0.0 + 1.0 + 1.0 + 0.0");
+    }
+    
+    @Test
+    public void testDifferentiateProduct() {
+        testDifferentiateHelper("x", "x * x * y * 3.0", "(x * x * y * 0.0 + 3.0 * (x * x * 0.0 + y * (x * 1.0 + x * 1.0)))");
+    }
+    
+    @Test
+    public void testDifferentiateAll() {
+        testDifferentiateHelper("x", "x * x + 2 * x", "((x * 1.0 + x * 1.0) + (2.0 * 1.0 + x * 0.0))");
+    }
+    
+    /**
+     * simplify()
+     */
+    private void testSimplify(String input, String solution, Map<String, Double> env) {
+        Expression input_expr = Expression.parse(input);
+        Expression simplified_expr = input_expr.simplify(env);
+        Expression solution_expr = Expression.parse(solution);
+        assertEquals(solution_expr, simplified_expr);
+    }
+    
+    @Test
+    public void testSimplifyAllVariablesFilled() {
+        Map<String, Double> env = new HashMap<String, Double>();
+        env.put("x", 1.0);
+        env.put("y", 2.0);
+        
+        Expression input_expr = Expression.parse("x + y + 10");
+        Expression simplified_expr = input_expr.simplify(env);
+        Scalar solution_expr = new Scalar(13.0);
+        assertEquals(solution_expr, simplified_expr);
+    }
+    
+    @Test
+    public void testSimplifyPartiallyFilled() {
+        Map<String, Double> env = new HashMap<String, Double>();
+        env.put("x", 5.0);
+        testSimplify("x + y * (5 + 2)", "(5.0 + y * 7.0)", env);
+    }
+    
+    @Test
+    public void testSimplifiedNoneFilled() {
+        Map<String, Double> env = new HashMap<String, Double>();
+        env.put("z", 5.0);
+        testSimplify("x + y * (5 + 2)", "(x + y * 7.0)", env);
     }
 }

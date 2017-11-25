@@ -1,5 +1,7 @@
 package expressivo;
 
+import java.util.Map;
+
 /*
  * Abstraction function:
  *  represents a variable of name name
@@ -19,6 +21,18 @@ public class Variable implements Expression {
         this.name = name;
     }
     
+    public Expression differentiate(String var) {
+        if (var.equals(name)) return new Scalar(1.0);
+        else return new Scalar(0.0);
+    }
+    
+    public Expression simplify(Map<String, Double> env) {
+        if (env.containsKey(name)) {
+            return new Scalar(env.get(name));
+        }
+        return this;
+    }
+    
     @Override
     public String toString() {
         return name;
@@ -28,7 +42,7 @@ public class Variable implements Expression {
     public boolean equals(Object that) {
         if (!(that instanceof Variable)) return false;
         Variable thatVariable = (Variable) that;
-        return this.name == thatVariable.name;
+        return this.name.equals(thatVariable.name);
     }
     
     @Override

@@ -1,5 +1,7 @@
 package expressivo;
 
+import java.util.Map;
+
 /*
  * Abstraction Function:
  *  Represents a scalar value of value
@@ -17,6 +19,14 @@ public class Scalar implements Expression {
     
     public Scalar(double value) {
         this.value = value;
+    }
+    
+    public Expression differentiate(String var) {
+        return new Scalar(0.0);
+    }
+    
+    public Expression simplify(Map<String, Double> env) {
+        return this;
     }
     
     @Override

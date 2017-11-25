@@ -11,7 +11,7 @@
  *
  * For more information, see the parsers reading.
  */
-root ::= potentiallyWrappedSum | potentiallyWrappedProduct;
+root ::= potentiallyWrappedSum | potentiallyWrappedProduct | potentiallyWrappedPrimitive;
 @skip whitespace{
 	potentiallyWrappedSum ::= sum | '(' sum ')' | '(' potentiallyWrappedSum ')';
 	potentiallyWrappedProduct ::= product | '(' product ')' | '(' potentiallyWrappedProduct ')';
@@ -20,7 +20,7 @@ root ::= potentiallyWrappedSum | potentiallyWrappedProduct;
 	product ::= potentiallyWrappedPrimitive ('*' potentiallyWrappedPrimitive)+;
 	primitive ::=  '(' sum ')' | '(' product ')' | number | variable;
 }
-number ::= [0-9]+;
+number ::= [0-9]* ('.' [0-9]+)?;
 variable ::= [a-zA-Z]+;
 
 whitespace ::= [ \t\r\n]+;

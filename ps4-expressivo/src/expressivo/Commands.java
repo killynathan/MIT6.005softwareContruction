@@ -21,7 +21,9 @@ public class Commands {
      * @throws IllegalArgumentException if the expression or variable is invalid
      */
     public static String differentiate(String expression, String variable) {
-        throw new RuntimeException("unimplemented");
+        Expression expr = Expression.parse(expression);
+        Expression deriv = expr.differentiate(variable);
+        return deriv.toString();
     }
     
     /**
@@ -37,7 +39,9 @@ public class Commands {
      * @throws IllegalArgumentException if the expression is invalid
      */
     public static String simplify(String expression, Map<String,Double> environment) {
-        throw new RuntimeException("unimplemented");
+        Expression expr = Expression.parse(expression);
+        Expression simplified_expr = expr.simplify(environment);
+        return simplified_expr.toString();
     }
     
     /* Copyright (c) 2015-2017 MIT 6.005 course staff, all rights reserved.

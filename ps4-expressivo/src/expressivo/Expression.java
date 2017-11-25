@@ -2,6 +2,7 @@ package expressivo;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Map;
 
 import lib6005.parser.*;
 
@@ -35,19 +36,30 @@ public interface Expression {
         try {
             Parser<ExpressionGrammar> parser = GrammarCompiler.compile(grammarFile, ExpressionGrammar.ROOT);
             ParseTree<ExpressionGrammar> tree = parser.parse(input);
-            tree.display();
+            //tree.display();
             return Utils.buildExpression(tree);
         } catch (UnableToParseException e) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
-            throw new IllegalArgumentException("bad input");
+            //e.printStackTrace();
+            throw new IllegalArgumentException("bad input: " + input);
         } catch (IOException e) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
+            //e.printStackTrace();
             throw new IllegalArgumentException("bad input");
         }
     }
     
+    /**
+     * @param the variable to take the derivative in respect to
+     * @return an Expression that is the derivative of the current Expression
+     */
+    public Expression differentiate(String var);
+    
+    /**
+     * @param a map of the environment, where keys are variables and values are scalars.
+     * @return a new Expression simplified with variables replaced if inside map
+     */
+    public Expression simplify(Map<String, Double> env);
     
     /**
      * @return a parsable representation of this expression, such that
